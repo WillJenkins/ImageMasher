@@ -1,0 +1,84 @@
+.root {
+    -fx-background-color: linear-gradient( gray, dimgray);
+}
+
+.toolBar {
+    -fx-background-color: dimgray;
+}
+
+.button {
+    -fx-background-color: dimgray;
+    
+}
+
+.button:hover {
+    /*-fx-effect: innershadow(three-pass-box, white,5,0.0,0,2);*/
+    -fx-background-color: linear-gradient(to right, seagreen, #9B9B00);
+}
+
+
+
+#quit:hover {
+    -fx-background-color: linear-gradient(to right, darkred, tomato);
+}
+
+#quit:pressed {
+    -fx-background-color: linear-gradient(to right, darkgreen, lightgreen);
+}
+
+
+
+#save:hover {
+    -fx-background-color: linear-gradient(to right, #9B9B00, seagreen);
+}
+
+#save:pressed {
+    -fx-background-color: linear-gradient(to right, orange, pink);
+}
+
+
+
+#add:hover {
+    -fx-background-color: linear-gradient(to right, teal, lightblue);
+}
+#add:pressed {
+    -fx-background-color: linear-gradient(to right, tomato, #FFD700);
+}
+
+
+
+#crop:hover {
+    -fx-background-color: linear-gradient(to right, mediumslateblue, darkviolet);
+}
+
+#crop:pressed {
+    -fx-background-color: linear-gradient(to right, pink, teal);
+}
+
+
+
+#undo:hover {
+    -fx-background-color: linear-gradient(to right, tomato, darkorange);
+}
+
+#undo:pressed {
+    -fx-background-color: linear-gradient(to right, grey, white);
+}
+
+
+
+.button:pressed{
+    -fx-background-color: linear-gradient(to right, pink, orange);   
+}
+
+#buttonText {
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-effect: dropshadow( three-pass-box, lightgray, 2, 0.0, 0, 1);
+}
+
+#imagePane {
+    -fx-background-color: rgba(30, 30, 30,100);
+}
+
