@@ -19,6 +19,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.event.EventHandler;
 
+// MAIN JAVA FILE (Don't really need to add stuff here other than comments)
 //need: 
 //	quit, 
 //	save, 
@@ -35,6 +36,16 @@ import javafx.event.EventHandler;
 //	Alpha-zero, black, white, middle grey, custom color(color picker)
 //	Zoom in/out
 
+//  Create option or separate app to match image sizes
+
+/**
+ * Image Mash is a program that reads a stack of jpeg images and
+ * calculates the average value of each overlapping pixel of each image in the stack
+ * and then generates a jpeg image from the resultant pixels
+ * @author William Jenkins 2019
+ * github repo: 
+ *
+ */
 public class ImageMash extends Application{
     
     

@@ -33,7 +33,7 @@ public class ImageLoader {
 	    file = new File(filePath);
 	    image = ImageIO.read(file);
 	} catch(IOException e) {
-		 System.out.println("getBufferedImageFromFile has thrown and IOException"
+		 System.out.println("getBufferedImageFromFile has thrown an IOException"
 			 + "\nCheck for valid filePath, check that file exists");
 		 //implement cases for missing file or invalid file
 	} 
