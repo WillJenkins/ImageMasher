@@ -29,6 +29,7 @@ import javafx.event.EventHandler;
 //	undo crop (warn once image is cropped any changes made after will mean
 //      the crop cannot be undone (or we just preview the image as 
 //      cropped and don't actually alter it))
+//	Rotate Image!!!
 
 //possible:
 //	remove a specific image

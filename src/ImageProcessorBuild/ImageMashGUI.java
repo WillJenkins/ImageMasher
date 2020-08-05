@@ -164,7 +164,7 @@ public class ImageMashGUI {
 	
 	//TEST IMAGE ONLY ====================
 	BufferedImage testImage = this.getBufferedImageFromFile(
-		"/Users/will/Pictures/FalloutWallpaper.jpg");
+		"\\Users\\Will\\Pictures\\Pictures\\My Art\\out2.jpg");
 	Image image = SwingFXUtils.toFXImage(testImage, null);
 	ImageView imgView = new ImageView();
 	imgView.setImage(image);
